@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    /* Header */
+.header_logo{
+    font-weight: normal;
+    background-color: antiquewhite;
+    text-align: left;
+    font-size: 15px;
+    width: 100%;
+}
+.nav-list {
+    list-style-type:none;
+}
+
+.nav-list li {
+    display: inline;
+    position: relative;
+    float: right;
+    font-size: 15px;
+    margin: 0 px;
+    padding-left: 16px;
+    border-left: 32px;
+    
+
+
+    
+}
+.logo-img {
+    float: left;
+    margin: 0px 15px 15px 15px;
+}
+
+/*   OLD CSS
+.nav {
+    border-bottom: 1px solid red;
+    display: inline-block;
+    
+    
+}
+
+.header_topbox ol {
+    list-style-type: none;
+    padding-left: 0;
+    color: blue;
+}
+
+.header_topbox {
+    display: inline-block;
+    align-content: right;
+    color:red;
+    
+}
+
+.header_topbox a {
+    display: inline-block;
+    float: inline-end;
+    color: gray;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+
+}*/
+    

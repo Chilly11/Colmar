@@ -12,6 +12,7 @@ body {
     font-size: 15px;
     width: 100%;
 }
+    
 .nav-list {
     list-style-type:none;
 }
@@ -24,9 +25,7 @@ body {
     margin: 0 px;
     padding-left: 16px;
     border-left: 32px;
-    
-
-
+    color: red;   
     
 }
 .logo-img {

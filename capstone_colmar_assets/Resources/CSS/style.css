@@ -92,6 +92,82 @@ img{
     
 }
 
+/* CSS for Second Picture*/
+.main_body_2 {
+    background-color:white;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.Right-side-images {
+    background-color:blue;
+    list-style: none;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: left; 
+    display: flex;
+}
+.text-align{
+    display: flex;
+    flex-direction: column;
+}
+.small-pic {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.top_line{
+    font-size: 12px;
+    padding-left: 24px;
+    justify-items:center;
+    max-width: 50%;  
+}
+
+.second_line{
+    font-size: 12px;
+    padding-left: 24px;
+    justify-items: right;
+    max-width: 50%;  
+}
+
+.third_line{
+    font-size: 12px;
+    padding-left: 24px;
+    justify-items: right;
+    max-width: 50%;  
+}
+ul {
+    list-style-type: none;
+}
+img_2{ 
+    max-width: 100%;
+
+}
+.image_2 {
+    flex-basis: 60%;
+}
+.text_2 {
+    font-size: 12px;
+    padding-left: 24px;
+    justify-items: right;
+    max-width: 50%;
+}
+
+.text_h1_2 {
+    color: blanchedalmond;
+    text-align: left;
+    padding-left: 24px;
+    
+}
+    .text_h2_2 {
+    color: blanchedalmond;
+    text-align:left;
+    font-style: italic;
+    padding-left: 24px;
+   
+
 /*   OLD CSS
 .nav {
     border-bottom: 1px solid red;

@@ -39,18 +39,20 @@ body {
     margin-top: 64px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 img{ 
     max-width: 100%;
 
 }
 .image {
-    flex-basis: 40%;
+    flex-basis: 60%;
 }
 .text {
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 12px;
+    padding-left: 24px;
+    justify-items: right;
+    max-width: 50%;
 }
 /*.banner_pic {
     width: 60%;
@@ -60,14 +62,19 @@ img{
     padding-right: 24px;
     padding-bottom: 32px;
     height: auto;
-}
+}*/
     .text_h1 {
-    display: inline-block;
-    color: blue;
+    color: blanchedalmond;
+    text-align: left;
+    padding-left: 24px;
+    
 }
     .text_h2 {
-    display: inline-block;
-    color:red;   
+    color: blanchedalmond;
+    text-align:left;
+    font-style: italic;
+    padding-left: 24px;
+   
 }
 
 /*   OLD CSS

@@ -33,6 +33,43 @@ body {
     margin: 0px 15px 15px 15px;
 }
 
+/* Main Body pictures */
+.main_body {
+    background-color: grey;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{ 
+    max-width: 100%;
+
+}
+.image {
+    flex-basis: 40%;
+}
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+/*.banner_pic {
+    width: 60%;
+    display:inline;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    height: auto;
+}
+    .text_h1 {
+    display: inline-block;
+    color: blue;
+}
+    .text_h2 {
+    display: inline-block;
+    color:red;   
+}
+
 /*   OLD CSS
 .nav {
     border-bottom: 1px solid red;

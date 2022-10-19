@@ -77,6 +77,21 @@ img{
    
 }
 
+.box{
+    background-color:blanchedalmond ;
+    font-size: 12px;
+    padding: 8px;
+    border: 1px solid lightsalmon;
+    margin-left: 150px;
+    margin-top: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
 /*   OLD CSS
 .nav {
     border-bottom: 1px solid red;

@@ -125,12 +125,33 @@ small-pictures:nth-of-type(3) {
 }
 small-pictures:nth-of-type(3) div:first-child {
     flex: 200px;
+    padding-bottom: 50px;
     display: flex;
     flex-flow: column;
     align-items:center;
     justify-content: center;
     color: aqua;
 }
+small-pictures:nth-of-type(3) div:nth-of-type(2){
+    flex: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    color:blue;
+}
+
+small-pictures:nth-of-type(3) div:nth-of-type(3){
+    flex: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    color:brown;
+}
+
 text-format {
     display: table-row-group;
     color: blanchedalmond;

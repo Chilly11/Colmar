@@ -93,16 +93,72 @@ img{
 }
 
 /* CSS for Second Picture*/
-.main_body_2 {
+/*.main_body_2 {
     background-color:white;
     margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: left;
+}*/
+picture-two {
+    display: inline-flex;
+    color: red;
+    height: 300px;
+    
 }
-
+small-pictures {
+    flex: 1 200px;
+    margin: 5px;
+    padding: auto;
+    /*display: inline-flex;
+    flex-direction: row;
+    background-color: grey;
+    color: blue;
+    flex-wrap: wrap;*/  
+}
+small-pictures:nth-of-type(3) {
+    flex:auto
+    display: flex;
+    flex-flow: column;
+    flex-basis: 24%
+   
+}
+small-pictures:nth-of-type(3) div:first-child {
+    flex: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    color: aqua;
+}
+text-format {
+    display: table-row-group;
+    color: blanchedalmond;
+    justify-items: center;
+}
+small-pictures:nth-of-type(1) {
+    flex-basis: 60%  
+  
+}
+small-pictures:nth-of-type(2) {
+    flex-basis: 16%  
+  
+}
+.text_h1_2 {
+    color: blanchedalmond;
+    text-align: left;
+    padding-left: 24px;
+    
+}
+.text_h2_2 {
+    color: blanchedalmond;
+    text-align:left;
+    font-style: italic;
+    padding-left: 24px;
+}
+/*
 .Right-side-images {
-    background-color:blue;
+    background-color: blue;
     list-style: none;
     margin-top: 16px;
     align-items: center;
@@ -155,17 +211,7 @@ img_2{
     max-width: 50%;
 }
 
-.text_h1_2 {
-    color: blanchedalmond;
-    text-align: left;
-    padding-left: 24px;
-    
-}
-    .text_h2_2 {
-    color: blanchedalmond;
-    text-align:left;
-    font-style: italic;
-    padding-left: 24px;
+
    
 
 /*   OLD CSS

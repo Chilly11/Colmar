@@ -117,11 +117,11 @@ small-pictures {
     flex-wrap: wrap;*/  
 }
 small-pictures:nth-of-type(3) {
-    flex:auto
+    flex:auto;
     display: flex;
     flex-flow: column;
-    flex-basis: 24%
-   
+    flex-basis: 24%;
+    background-color: bisque;
 }
 small-pictures:nth-of-type(3) div:first-child {
     flex: 200px;
@@ -131,6 +131,7 @@ small-pictures:nth-of-type(3) div:first-child {
     align-items:center;
     justify-content: center;
     color: aqua;
+    background-color: bisque;
 }
 small-pictures:nth-of-type(3) div:nth-of-type(2){
     flex: 200px;
@@ -140,6 +141,7 @@ small-pictures:nth-of-type(3) div:nth-of-type(2){
     align-items:center;
     justify-content: center;
     color:blue;
+    background-color: bisque;
 }
 
 small-pictures:nth-of-type(3) div:nth-of-type(3){
@@ -150,6 +152,7 @@ small-pictures:nth-of-type(3) div:nth-of-type(3){
     align-items:center;
     justify-content: center;
     color:brown;
+    background-color: bisque;
 }
 
 text-format {
